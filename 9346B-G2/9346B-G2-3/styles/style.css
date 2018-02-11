@@ -1,0 +1,71 @@
+body, html{
+		height:100%;
+		width:100%;
+		margin:0;
+		padding:0;
+		border:0;
+		top:0;
+}
+
+div{
+	text-align:center;
+}
+
+.nav-top{
+	top:0;
+	padding:5px;
+	margin:0;
+	position:fixed;
+	width:50%;
+}
+
+.nav-bar{
+	margin-left:10%;
+	margin-right:10%;
+	width:100%;
+}
+
+
+.nav-button{
+	float:left;
+	width:20%;
+	border:none;
+	display:block;
+	overflow:auto;
+	text-align:center;
+	text-decoration:none;
+	color:#17202A;
+	top:0;
+	cursor:pointer;
+	
+}
+
+.nav-button:hover{
+	background-color:#E5E7E9;
+}
+
+@font-face{
+	font-family:flamante;
+	src:url("fonts/flamante.woff"),
+		url("fonts/flamante.tff"),
+		url("fonts/flamante.woff2"),
+		url("fonts/flamante.eot");
+}
+
+.header-text{
+	font-family:flamante;
+	font-size: 80px;
+	top:0;
+}
+
+.display-container{
+	background-image:url("header.png");
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	width:100%;
+	min-height:100%;
+	overflow:hidden;
+	position:relative;
+	display:flex;
+}
