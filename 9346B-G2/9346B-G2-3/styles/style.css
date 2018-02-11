@@ -2,14 +2,12 @@ body, html{
 		height:100%;
 		line-height: 1.8;
 		font-family: "Raleway", Arial, sans-serif;
-		background-image:url("nav.png");
+		background-image:url("picture/nav.png");
 		background-attachment:scroll;
 		background-size:cover;
 		background-position:center center;
 		text-align:center;
-
-}
-		
+}	
 
 a{
 	text-decoration:none;
@@ -82,7 +80,7 @@ div{
 }
 
 .display-container{
-	background-image:url("header.png");
+	background-image:url("picture/header.png");
 	background-position:center;
 	background-size:cover;
 	max-height:100%;
@@ -176,7 +174,7 @@ div{
 }
 
 .hero-image {
-    background-image: url("group.png");
+    background-image: url("picture/group.png");
     height: 80%;
     background-position: center;
     background-repeat: no-repeat;
