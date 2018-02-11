@@ -1,71 +1,85 @@
 body, html{
 		height:100%;
-		width:100%;
-		margin:0;
-		padding:0;
-		border:0;
-		top:0;
+		line-height: 1.8;
+		font-family: "Raleway", Arial, sans-serif;
+		background-image:url("nav.png");
+		background-attachment:scroll;
+		background-size:cover;
+		background-position:center center;
+		
 }
 
 div{
 	text-align:center;
-}
-
+	}
+	
 .nav-top{
-	top:0;
-	padding:5px;
+	padding-top:20px;
+	padding-bottom:32px;
 	margin:0;
-	position:fixed;
-	width:50%;
+	
 }
 
 .nav-bar{
 	margin-left:10%;
 	margin-right:10%;
-	width:100%;
+	width:80%;
+	overflow:hidden;
+	border:1px solid #47A6E8;
 }
-
-
 .nav-button{
 	float:left;
-	width:20%;
+	width:16.6%;
 	border:none;
-	display:block;
-	overflow:auto;
+	display:inline-block;
+	overflow:hidden;
 	text-align:center;
 	text-decoration:none;
 	color:#17202A;
 	top:0;
 	cursor:pointer;
+	font-weight:bold;
 	
 }
 
 .nav-button:hover{
-	background-color:#E5E7E9;
+	background-color:#DDEDF9 ;
 }
 
+
 @font-face{
-	font-family:flamante;
-	src:url("fonts/flamante.woff"),
-		url("fonts/flamante.tff"),
-		url("fonts/flamante.woff2"),
-		url("fonts/flamante.eot");
+	font-family:dolcevita;
+	src:url("fonts/DolceVita.woff"),
+		url("fonts/DolceVita.tff"),
+		url("fonts/Dolcevita.woff2"),
+		url("fonts/Dolcevita.eot");
 }
 
 .header-text{
-	font-family:flamante;
-	font-size: 80px;
+	font-family:dolcevita;
+	font-size: 100px;
 	top:0;
+	padding:0;
+	color:Black;
+	letter-spacing:15px;
+}
+
+@media only screen and (max-width: 720px) {
+     display-container { position: absolute; }
 }
 
 .display-container{
 	background-image:url("header.png");
 	background-position:center;
 	background-size:cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	max-height:100%;
+	max-width:100%;
 	background-repeat:no-repeat;
-	width:100%;
-	min-height:100%;
-	overflow:hidden;
-	position:relative;
-	display:flex;
+	overflow-x:hidden;
+	color:white;
+	opacity: 0.8;
+	filter: alpha(opacity=50);
+		
 }
